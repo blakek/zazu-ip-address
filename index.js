@@ -32,8 +32,10 @@ const defaultOrder = [
   'public ipv4'
 ]
 
-const order = Array.isArray(process.env.order) ? process.env.order : defaultOrder
 const getTemplateFromName = ipTypeName => ipTypes.find(ipType => ipType.test(ipTypeName))
-const ipEntries = order.map(getTemplateFromName)
 
-module.exports = () => () => Promise.all(ipEntries.map(ipEntry => ipEntry.getValue()))
+module.exports = () => (query, env = {}) => {
+  const order = Array.isArray(env.order) ? env.order : defaultOrder
+  const ipEntries = order.map(getTemplateFromName)
+  return Promise.all(ipEntries.map(ipEntry => ipEntry.getValue()))
+}
