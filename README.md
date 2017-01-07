@@ -8,7 +8,7 @@ Get your current IP address, internal and public, from your launcher!
 
 Open [Zazu](http://zazuapp.org) and type `ip`
 
-<!-- ![demo](example.gif) -->
+![demo](example.gif)
 
 ## Install
 
