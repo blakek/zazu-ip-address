@@ -1,0 +1,29 @@
+{
+  "name": "zazu-ip-address",
+  "description": "Show your internal and external IP address using Zazu 💻",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/blakek/zazu-emoj",
+    "type": "git"
+  },
+  "files": [
+    "index.js",
+    "LICENSE",
+    "zazu.json"
+  ],
+  "author": "Blake Knight <oss.ideas@gmail.com> (http://blakek.me/)",
+  "license": "MIT",
+  "scripts": {
+    "lint": "standard | snazzy",
+    "test": "npm run lint"
+  },
+  "dependencies": {
+    "internal-ip": "^1.2.0",
+    "public-ip": "^2.0.1"
+  },
+  "devDependencies": {
+    "snazzy": "^5.0.0",
+    "standard": "^8.6.0"
+  }
+}

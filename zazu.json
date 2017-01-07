@@ -1,0 +1,26 @@
+{
+  "name": "zazu-ip-address",
+  "version": "1.0.0",
+  "description": "Show your internal and external IP address using Zazu 💻",
+  "blocks": {
+    "input": [
+      {
+        "type": "PrefixScript",
+        "prefix": "ip",
+        "space": false,
+        "args": "None",
+        "script": "index.js",
+        "connections": [
+          "Copy"
+        ]
+      }
+    ],
+    "output": [
+      {
+        "id": "Copy",
+        "type": "CopyToClipboard",
+        "text": "{value}"
+      }
+    ]
+  }
+}
