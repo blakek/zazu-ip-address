@@ -20,7 +20,7 @@ Add `blakek/zazu-ip-address` inside the `plugins` block of your `~/.zazurc.json`
 {
   /* In ~/.zazurc.json */
   "plugins": [
-    "blakek/zazu-emoj"
+    "blakek/zazu-ip-address"
   ]
 }
 ```
@@ -36,7 +36,7 @@ Notes:
   /* In ~/.zazurc.json */
   "plugins": [
     {
-      "name": "blakek/zazu-emoj",
+      "name": "blakek/zazu-ip-address",
       "variables": {
         "order": [
           "internal ipv4",
