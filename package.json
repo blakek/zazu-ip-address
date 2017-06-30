@@ -19,7 +19,7 @@
     "test": "npm run lint"
   },
   "dependencies": {
-    "internal-ip": "^1.2.0",
+    "internal-ip": "^2.0.0",
     "public-ip": "^2.0.1"
   },
   "devDependencies": {
