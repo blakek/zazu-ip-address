@@ -23,7 +23,7 @@
     "public-ip": "^2.0.1"
   },
   "devDependencies": {
-    "snazzy": "^5.0.0",
+    "snazzy": "^8.0.0",
     "standard": "^9.0.2"
   }
 }
