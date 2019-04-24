@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "internal-ip": "^2.0.2",
-    "public-ip": "^2.0.1"
+    "public-ip": "^3.1.0"
   },
   "devDependencies": {
     "snazzy": "^5.0.0",
